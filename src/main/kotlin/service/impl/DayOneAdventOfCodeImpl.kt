@@ -1,12 +1,12 @@
 package org.example.service.impl
 
 
-import org.example.service.DayOneAdventOfCode
+import org.example.service.AdventOfCode
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 import kotlin.math.abs
 
-class DayOneAdventOfCodeImpl : DayOneAdventOfCode {
+class DayOneAdventOfCodeImpl : AdventOfCode {
     override fun partOne(): Int {
         val lines = Path("/Users/adrien/Desktop/aoc/day1.txt").readLines()
         val (left, right) = getMapValues(lines)

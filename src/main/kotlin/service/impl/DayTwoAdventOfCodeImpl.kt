@@ -1,11 +1,11 @@
 package org.example.service.impl
 
-import org.example.service.DayTwoAdventOfCode
+import org.example.service.AdventOfCode
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 import kotlin.math.abs
 
-class DayTwoAdventOfCodeImpl : DayTwoAdventOfCode {
+class DayTwoAdventOfCodeImpl : AdventOfCode {
     override fun partOne(): Int {
         val lines = Path("/Users/adrien/Desktop/aoc/day2.txt").readLines()
         var counter = 0

@@ -1,10 +1,10 @@
 package org.example.service.impl
 
-import org.example.service.DayThreeAdventOfCode
+import org.example.service.AdventOfCode
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 
-class DayThreeAdventOfCodeImpl : DayThreeAdventOfCode {
+class DayThreeAdventOfCodeImpl : AdventOfCode {
 
     private var regexMultiply = """mul\((\d{1,3}),(\d{1,3})\)"""
     private var regexDo = """do\(\)"""
